@@ -1,3 +1,4 @@
+const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const express = require('express');
 const cors = require('cors');
@@ -21,8 +22,6 @@ db.once('open', () => {
 
     // Schema for users of the app
     const UserSchema = new mongoose.Schema({
-        
-    
         email: {
             type: String,
             required: true,
@@ -32,20 +31,24 @@ db.once('open', () => {
             type: String,
             required: true,
         },
-         username: {
+        username: {
             type: String,
             required: true,
         },
-       
-        
     });
 
     const User = mongoose.model('users', UserSchema);
 
-    // Enable CORS
-    app.use(cors());
+    // Define Schema and Model for Chat Messages (for chatbot)
+    const chatSchema = new mongoose.Schema({
+        user: String,
+        message: String,
+    });
 
-    // Middleware to parse JSON
+    const Chat = mongoose.model('Chat', chatSchema);
+
+    // Enable CORS and JSON parsing middleware
+    app.use(cors());
     app.use(express.json());
 
     // Test endpoint
@@ -74,8 +77,26 @@ db.once('open', () => {
         }
     });
 
+    // Endpoint to handle incoming chat messages for the chatbot
+    app.post('/api/messages', async (req, res) => {
+        const { user, message } = req.body;
+
+        try {
+            // Save incoming chat message to MongoDB
+            const newMessage = new Chat({ user, message });
+            await newMessage.save();
+
+            // For demonstration purposes, sending a dummy response from the chatbot
+            const botResponse = 'This is a sample response from the chatbot.';
+            res.json({ botResponse });
+        } catch (error) {
+            console.error('Error handling chat message:', error);
+            res.status(500).json({ error: 'Error handling chat message' });
+        }
+    });
+
     // Start the server
     app.listen(port, () => {
         console.log(`App listening at http://localhost:${port}`);
-    });
+    });
 });

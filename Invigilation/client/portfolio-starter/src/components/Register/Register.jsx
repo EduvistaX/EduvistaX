@@ -2,7 +2,7 @@ import React ,{useState} from 'react';
 import './Register.css'; 
 
 
-const Login = () => {
+const Register = () => {
    const [formData, setFormData] = useState({
     email: '',
     password: '',
@@ -78,4 +78,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default Register;

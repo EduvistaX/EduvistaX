@@ -7,7 +7,8 @@ import Github from "../../img/github.png";
 import LinkedIn from "../../img/linkedin.png";
 import Instagram from "../../img/instagram.png";
 import { themeContext } from "../../Context";
-import Login from "../Login/Login";
+import Register from "../Register/Register";
+
 
 const Intro = () => {
   // Transition
@@ -37,7 +38,7 @@ const Intro = () => {
         </div>
         {/* Conditionally render the Login component */}
         {showLogin ? (
-          <Login />
+          <Register />
         ) : (
           <button className="button i-button" onClick={handleStartClick}>
             Let's get Started

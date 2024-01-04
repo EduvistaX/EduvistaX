@@ -1,11 +1,12 @@
 import Navbar from "./components/Navbar/Navbar";
 import Intro from "./components/Intro/Intro";
 import Services from "./components/Services/Services";
+import Chatbot from "./components/Chatbot/Chatbot";
 import "./App.css";
 import { BrowserRouter as Router,Routes,Route } from 'react-router-dom';
 import Works from "./components/Works/Works";
 
-import Login from "./components/Login/Login";
+
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import { useContext } from "react";
@@ -16,13 +17,7 @@ function App() {
   const darkMode = theme.state.darkMode;
   return (
     
-    <><Router>
-      <Routes>
-        
-        <Route path="Login" element={<Login/>} />
-        
-      </Routes>
-    </Router>
+    <>
     <div
       className="App"
       style={{
@@ -36,7 +31,7 @@ function App() {
 
         <Works />
         
-
+        <Chatbot />
         <Contact />
         <Footer />
       </div></>
