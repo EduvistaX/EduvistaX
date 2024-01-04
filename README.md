@@ -13,9 +13,9 @@ The aim of the project is to solve some real time problems in college. The probl
 
 
 <h4>MODULES:</h4>
-Module 1:- In this module the details of the students are verified. Examples of the details are whether the student studied in our college or not, Is he/she got the certificates from our college or not etc.<br>
-Module 2:- In this module we are doing venue management that is to verify whether the classroom ,seminar hall , labs free are not at particular time or not .<br>
-Module 3:-The Teacher Invigilation Tracking module serves as a centralized repository for securely storing and tracking invigilation records of teaching staff in an educational institution. Authorized users can efficiently access and search the database for specific staff members' invigilation schedules and assignments. This digital solution eliminates manual paperwork, saving time and promoting transparency. <br>
+Module 1:- In this module the details of the students are verified. Examples of the details are whether the student studied in our college or not, Is he/she got the certificates from our college or not etc.<br><br>
+Module 2:- In this module we are doing venue management that is to verify whether the classroom ,seminar hall , labs free are not at particular time or not .<br><br>
+Module 3:-The Teacher Invigilation Tracking module serves as a centralized repository for securely storing and tracking invigilation records of teaching staff in an educational institution. Authorized users can efficiently access and search the database for specific staff members' invigilation schedules and assignments. This digital solution eliminates manual paperwork, saving time and promoting transparency. <br><br>
 Module 4:- In this module we are doing some service that is generating automatic messages to the students when there is requirement for blood in hospitals.<br></br><br><br>
 
 <h4>TECHNOLOGIES USED:</h4>
@@ -45,25 +45,69 @@ After completion of the project the student details are verified automatically f
 
 
 <h4>FURTHER ENHANCEMENT:</h4>
-As part of further enhancement we are increasing security features.
+As part of further enhancement we are increasing security features.<br><br>
+
 
 
 
 
 <h4>MOTIVATION:</h4>
-1. The Verification Module streamlines student enrollment confirmation, saving time and resources for both students and staff.
-2. Venue Management optimizes resource allocation and enhances event planning by providing real-time venue availability notifications.
-3. Invigilation Management ensures efficient scheduling, accurate records, and improved teacher accountability.
-4. The Blood Donation Module can save lives by efficiently connecting donors with those in need, fostering a sense of community and social responsibility.
-5. Each module contributes to the institution's efficiency, user experience, and social impact, making the project valuable and impactful.
+1. The Verification Module streamlines student enrollment confirmation, saving time and resources for both students and staff.<br><br>
+
+2. Venue Management optimizes resource allocation and enhances event planning by providing real-time venue availability notifications.<br><br>
+
+3. Invigilation Management ensures efficient scheduling, accurate records, and improved teacher accountability.<br><br>
+
+4. The Blood Donation Module can save lives by efficiently connecting donors with those in need, fostering a sense of community and social responsibility.<br><br>
+
+5. Each module contributes to the institution's efficiency, user experience, and social impact, making the project valuable and impactful.<br><br>
+
 
 <h4>TEAM MEMBERS:</h4>
-1.Sathwik (Team Leader)         7.Manjari  
-2.Venkatesh				              8.Rupa Sri 
-3.Ameer				                	9.Kusuma
-4.Manohar		                		10.Pravallika
-5.Raheem		                		11.Harini
-6.Bharath			                	12.Keerthi
+ <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    th, td {
+      padding: 8px;
+      text-align: left;
+    }
+    /* Remove borders */
+    table, th, td {
+      border: none;
+    }
+    /* Remove bold for first row header cells */
+    th:first-child, th:nth-child(2) {
+      font-weight: normal;
+    }
+  </style>
+  <table>
+  <tr>
+    <th>1. Sathwik (Team Leader)</th>
+    <th>7. Manjari</th>
+  </tr>
+  <tr>
+    <td>2. Venkatesh</td>
+    <td>8. Rupa Sri</td>
+  </tr>
+  <tr>
+    <td>3. Ameer</td>
+    <td>9. Kusuma</td>
+  </tr>
+  <tr>
+    <td>4. Manohar</td>
+    <td>10. Pravallika</td>
+  </tr>
+  <tr>
+    <td>5. Raheem</td>
+    <td>11. Harini</td>
+  </tr>
+  <tr>
+    <td>6. Bharath</td>
+    <td>12. Keerthi</td>
+  </tr>
+</table>
 
 
 
