@@ -62,25 +62,13 @@ As part of further enhancement we are increasing security features.<br><br>
 5. Each module contributes to the institution's efficiency, user experience, and social impact, making the project valuable and impactful.<br><br>
 
 
-
-  <style>
-    table {
-      border-collapse: collapse;
-      width: 100%;
-    }
-    th, td {
-      padding: 8px;
-      text-align: left;
-      border: none;
-      font-weight: normal;
-    }
-  </style>
+<h3>TEAM MEMBERS:</h3><br>
 
 
-<table>
+<table border="none>
   <tr>
-    <th>1. Sathwik (Team Leader)</th>
-    <th>7. Manjari</th>
+    <td>1. Sathwik (Team Leader)</th>
+    <td>7. Manjari</th>
   </tr>
   <tr>
     <td>2. Venkatesh</td>
