@@ -5,7 +5,7 @@
 </h3>PROBLEM STATEMENT:</h3><br><br>
 In today’s dynamic educational and service-oriented landscape , the need for efficient and reliable systems has never been more critical . This abstract proposes the development of an integrated system that addresses four distinct yet interconnected challenges : secure student verification , streamlined venue management , efficient invigilation management and optimal blood service coordination.<br><br>
 
-INTRODUCTION:
+<h3>INTRODUCTION:</h3>
 The aim of the project is to solve some real time problems in college. The problems that we are going to solve are Venue Management, Verification of student details, College invigilation management system and also as part of service side we are doing Blood requirement analysis. The more details about modules is given below. As these managed manually there are lot of problems takes place. So in order to solve we are going to automate them.<br><br>
 
 
@@ -62,11 +62,7 @@ As part of further enhancement we are increasing security features.<br><br>
 5. Each module contributes to the institution's efficiency, user experience, and social impact, making the project valuable and impactful.<br><br>
 
 
-<h3>TEAM MEMBERS:</h3>
- <!DOCTYPE html>
-<html>
-<head>
-  <title>Names Display</title>
+
   <style>
     table {
       border-collapse: collapse;
@@ -79,8 +75,7 @@ As part of further enhancement we are increasing security features.<br><br>
       font-weight: normal;
     }
   </style>
-</head>
-<body>
+
 
 <table>
   <tr>
@@ -108,6 +103,3 @@ As part of further enhancement we are increasing security features.<br><br>
     <td>12. Keerthi</td>
   </tr>
 </table>
-
-</body>
-</html>
