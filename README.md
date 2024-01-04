@@ -2,7 +2,7 @@
 <h1 align="center">END TO END PROJECT</h1>
 <h2>PROJECT TITLE :  </h2><h2>"EduVistaX: Visionary Campus Services"</h2>
 <br><br>
-</h3>PROBLEM STATEMENT:</h3><br><br>
+<h3>PROBLEM STATEMENT:</h3> <br><br>
 In today’s dynamic educational and service-oriented landscape , the need for efficient and reliable systems has never been more critical . This abstract proposes the development of an integrated system that addresses four distinct yet interconnected challenges : secure student verification , streamlined venue management , efficient invigilation management and optimal blood service coordination.<br><br>
 
 <h3>INTRODUCTION:</h3>
@@ -63,21 +63,9 @@ As part of further enhancement we are increasing security features.<br><br>
 
 
 <h3>TEAM MEMBERS:</h3><br>
-<style>
-    table {
-        
-      border-collapse: collapse;
-      width: 100%;
-    }
-    th, td {
-      padding: 8px;
-      text-align: left;
-      border: none;
-      font-weight: normal;
-    }
-  </style>
 
-<table>
+
+<table border="none" text>
   <tr>
     <td>1. Sathwik (Team Leader)</th>
     <td>7. Manjari</th>
