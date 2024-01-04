@@ -2,7 +2,7 @@
 <h1 align="center">END TO END PROJECT</h1>
 <h2>PROJECT TITLE :  "EduVistaX: Visionary Campus Services"</h2>
 <br><br>
-</h4>PROBLEM STATEMENT:</h4><br><br>
+</h3>PROBLEM STATEMENT:</h3><br><br>
 In today’s dynamic educational and service-oriented landscape , the need for efficient and reliable systems has never been more critical . This abstract proposes the development of an integrated system that addresses four distinct yet interconnected challenges : secure student verification , streamlined venue management , efficient invigilation management and optimal blood service coordination.<br><br>
 
 INTRODUCTION:
@@ -11,13 +11,13 @@ The aim of the project is to solve some real time problems in college. The probl
 
 
 
-<h4>MODULES:</h4>
+<h3>MODULES:</h3>
 Module 1:- In this module the details of the students are verified. Examples of the details are whether the student studied in our college or not, Is he/she got the certificates from our college or not etc.<br><br>
 Module 2:- In this module we are doing venue management that is to verify whether the classroom ,seminar hall , labs free are not at particular time or not .<br><br>
 Module 3:-The Teacher Invigilation Tracking module serves as a centralized repository for securely storing and tracking invigilation records of teaching staff in an educational institution. Authorized users can efficiently access and search the database for specific staff members' invigilation schedules and assignments. This digital solution eliminates manual paperwork, saving time and promoting transparency. <br><br>
 Module 4:- In this module we are doing some service that is generating automatic messages to the students when there is requirement for blood in hospitals.<br></br><br><br>
 
-<h4>TECHNOLOGIES USED:</h4>
+<h3>TECHNOLOGIES USED:</h3>
 
 
 1. Backend: Python (Django or Flask) or Javascript (Node.js)
@@ -36,21 +36,21 @@ Module 4:- In this module we are doing some service that is generating automatic
 
 
 
-<h4>CONCLUSION:</h4>
+<h3>CONCLUSION:</h3>
 After completion of the project the student details are verified automatically for the companies.Additionally, the status of available venues can be checked by consulting faculty members. The system also automatically tracks the invigilation status of teachers, both within and outside the college. Furthermore, the platform offers support for blood donation when there is a need."
 
 
 
 
 
-<h4>FURTHER ENHANCEMENT:</h4>
+<h3>FURTHER ENHANCEMENT:</h3>
 As part of further enhancement we are increasing security features.<br><br>
 
 
 
 
 
-<h4>MOTIVATION:</h4>
+<h3>MOTIVATION:</h3>
 1. The Verification Module streamlines student enrollment confirmation, saving time and resources for both students and staff.<br><br>
 
 2. Venue Management optimizes resource allocation and enhances event planning by providing real-time venue availability notifications.<br><br>
@@ -62,8 +62,12 @@ As part of further enhancement we are increasing security features.<br><br>
 5. Each module contributes to the institution's efficiency, user experience, and social impact, making the project valuable and impactful.<br><br>
 
 
-<h4>TEAM MEMBERS:</h4>
- <style>
+<h3>TEAM MEMBERS:</h3>
+ <!DOCTYPE html>
+<html>
+<head>
+  <title>Names Display</title>
+  <style>
     table {
       border-collapse: collapse;
       width: 100%;
@@ -71,17 +75,14 @@ As part of further enhancement we are increasing security features.<br><br>
     th, td {
       padding: 8px;
       text-align: left;
-    }
-    
-    table, th, td {
       border: none;
-    }
-   
-    th:first-child, th:nth-child(2) {
       font-weight: normal;
     }
   </style>
-  <table>
+</head>
+<body>
+
+<table>
   <tr>
     <th>1. Sathwik (Team Leader)</th>
     <th>7. Manjari</th>
@@ -108,6 +109,5 @@ As part of further enhancement we are increasing security features.<br><br>
   </tr>
 </table>
 
-
-
-
+</body>
+</html>
