@@ -2,19 +2,22 @@
 <h1 align="center">END TO END PROJECT</h1>
 <h2>PROJECT TITLE:</h2>
 </h3>"EduVistaX: Visionary Campus Services"</h3>
+<br><br>
+</h4>PROBLEM STATEMENT:</h4><br><br>
+In today’s dynamic educational and service-oriented landscape , the need for efficient and reliable systems has never been more critical . This abstract proposes the development of an integrated system that addresses four distinct yet interconnected challenges : secure student verification , streamlined venue management , efficient invigilation management and optimal blood service coordination.<br><br>
 
-</h4>PROBLEM STATEMENT:</h4>
-In today’s dynamic educational and service-oriented landscape , the need for efficient and reliable systems has never been more critical . This abstract proposes the development of an integrated system that addresses four distinct yet interconnected challenges : secure student verification , streamlined venue management , efficient invigilation management and optimal blood service coordination.
 INTRODUCTION:
-The aim of the project is to solve some real time problems in college. The problems that we are going to solve are Venue Management, Verification of student details, College invigilation management system and also as part of service side we are doing Blood requirement analysis. The more details about modules is given below. As these managed manually there are lot of problems takes place. So in order to solve we are going to automate them.
+The aim of the project is to solve some real time problems in college. The problems that we are going to solve are Venue Management, Verification of student details, College invigilation management system and also as part of service side we are doing Blood requirement analysis. The more details about modules is given below. As these managed manually there are lot of problems takes place. So in order to solve we are going to automate them.<br><br>
+
 
 
 
 <h4>MODULES:</h4>
-Module 1:- In this module the details of the students are verified. Examples of the details are whether the student studied in our college or not, Is he/she got the certificates from our college or not etc.
-Module 2:- In this module we are doing venue management that is to verify whether the classroom ,seminar hall , labs free are not at particular time or not .
-Module 3:-The Teacher Invigilation Tracking module serves as a centralized repository for securely storing and tracking invigilation records of teaching staff in an educational institution. Authorized users can efficiently access and search the database for specific staff members' invigilation schedules and assignments. This digital solution eliminates manual paperwork, saving time and promoting transparency. 
-Module 4:- In this module we are doing some service that is generating automatic messages to the students when there is requirement for blood in hospitals.<br></br>
+Module 1:- In this module the details of the students are verified. Examples of the details are whether the student studied in our college or not, Is he/she got the certificates from our college or not etc.<br>
+Module 2:- In this module we are doing venue management that is to verify whether the classroom ,seminar hall , labs free are not at particular time or not .<br>
+Module 3:-The Teacher Invigilation Tracking module serves as a centralized repository for securely storing and tracking invigilation records of teaching staff in an educational institution. Authorized users can efficiently access and search the database for specific staff members' invigilation schedules and assignments. This digital solution eliminates manual paperwork, saving time and promoting transparency. <br>
+Module 4:- In this module we are doing some service that is generating automatic messages to the students when there is requirement for blood in hospitals.<br></br><br><br>
+
 <h4>TECHNOLOGIES USED:</h4>
 
 
